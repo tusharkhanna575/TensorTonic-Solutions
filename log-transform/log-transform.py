@@ -1,8 +1,8 @@
-from math import log1p
+from math import log
 
 def log_transform(values):
     """
     Apply the log1p transformation to each value.
     """
-    # Write code here
-    return [log1p(i) for i in values]
+    # Write code here  
+    return [log(1+i) for i in values]
